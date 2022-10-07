@@ -1,0 +1,13 @@
+name: Main Workflow
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  main:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3  
