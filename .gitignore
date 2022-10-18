@@ -10,4 +10,5 @@
 *.exe
 *.o
 *.out
+**/*.DS_Store
 **/*.dSYM
