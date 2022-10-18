@@ -16,12 +16,9 @@ public:
         // const size_t length = nums.size();
         const int length = nums.size();
         
-        for (; i<length-1; ++i)
-        {
-            for(int j=i+1; j<length; ++j)
-            {
-                if (nums.at(i) + nums.at(j) == target)
-                {
+        for (; i<length-1; ++i) {
+            for(int j=i+1; j<length; ++j) {
+                if (nums.at(i) + nums.at(j) == target) {
                     isFound = true;
                     v.push_back(i);
                     v.push_back(j);
