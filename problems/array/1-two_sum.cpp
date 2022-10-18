@@ -12,7 +12,9 @@ public:
         int i = 0;
         bool isFound = false;
         
-        const size_t length = nums.size();
+        // TODO: comparison of integers of different signs: 'int' and 'unsigned long' 
+        // const size_t length = nums.size();
+        const int length = nums.size();
         
         for (; i<length-1; ++i)
         {
