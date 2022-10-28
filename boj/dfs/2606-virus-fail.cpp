@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+// fail
 struct Node {
     int val;
     bool found;
