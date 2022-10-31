@@ -59,7 +59,16 @@
         "variant": "cpp",
         "map": "cpp",
         "set": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "__node_handle": "cpp",
+        "__tree": "cpp",
+        "array": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp",
+        "deque": "cpp",
+        "optional": "cpp",
+        "sstream": "cpp",
+        "algorithm": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
