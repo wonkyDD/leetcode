@@ -1,3 +1,2 @@
-# Leetcode
-
-https://stackoverflow.com/questions/51046803/visual-studio-code-c11-extension-warning
+# problem solving (C++)
+<!-- https://stackoverflow.com/questions/51046803/visual-studio-code-c11-extension-warning -->
