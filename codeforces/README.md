@@ -1,2 +1,2 @@
-# Codeforces (C++)
+# Codeforces
 https://codeforces.com/problemset
