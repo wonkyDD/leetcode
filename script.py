@@ -1,5 +1,7 @@
 """cross-platform을 위해 shell->py로 변경"""
 
+# sys.platform == darwin || sys.platform == win32
+
 # @TODO build.sh
 # CSAPP Lab 프로젝트 코드들 (Makefile -> cmake)
 # Game들 cmake로 포팅 (macOS, window 빌드 모두 지원)
