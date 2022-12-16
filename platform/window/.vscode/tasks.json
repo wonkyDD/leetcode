@@ -8,6 +8,7 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
+                "-I${workspaceFolder}/include",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"

@@ -1,11 +1,9 @@
 {
-    // https://code.visualstudio.com/docs/cpp/config-mingw
-    // https://www.msys2.org/
     "configurations": [
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/include/**"
             ],
             "defines": [
                 "_DEBUG",
@@ -16,7 +14,8 @@
             "compilerPath": "C:/msys64/mingw64/bin/g++.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-gcc-x64"
+            "intelliSenseMode": "windows-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
         }
     ],
     "version": 4
