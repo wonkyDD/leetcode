@@ -1,5 +1,15 @@
+# Bookmark
+
+- [page 99] : 4.6 Quaternions
+
+<br>
+
+# Timeline
+
+<br>
+
 >Start   : 2022_12_17_SAT<br>
->Finish  : 
+>Finish  : 2022_12_21_WED
 
 <br>
 
@@ -8,6 +18,3 @@
 
 #### 2022_12_19_MON
 - [page 97] : 4.4.2 Points and Directions 
-
-#### _ _ _
-- [page ] :
