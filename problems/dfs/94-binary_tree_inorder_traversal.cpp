@@ -1,9 +1,8 @@
 // https://leetcode.com/problems/binary-tree-inorder-traversal/
-#include <iostream>
+// https://leetcode.com/problems/binary-tree-inorder-traversal/solutions/127563/binary-tree-inorder-traversal/
 #include <vector>
 #include <stack>
 using namespace std;
-
 
 struct TreeNode 
 {
@@ -15,7 +14,55 @@ struct TreeNode
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-class Solution 
+class Answer1
+{
+public:
+    vector<int> inorderTraversal(TreeNode* root) 
+    {
+        vector<int> v;
+        helper(root, v);
+        return v;
+    }
+
+    void helper(TreeNode* root, vector<int>& v)
+    {
+        if (root != nullptr)
+        {
+            helper(root->left, v);
+            v.push_back(root->val);
+            helper(root->right, v);
+        }
+    }
+};
+
+class Answer2
+{
+public:
+    vector<int> inorderTraversal(TreeNode* root) 
+    {
+        vector<int> v;
+        stack<TreeNode*> stk;
+        TreeNode* cur = root;
+
+        while (cur != nullptr || !stk.empty())
+        {
+            while (cur != nullptr)
+            {
+                stk.push(cur);
+                cur = cur->left;
+            }
+
+            cur = stk.top();
+            stk.pop();
+            v.push_back(cur->val);
+            cur = cur->right;
+        }
+
+        return v;
+    }
+};
+
+class Fail 
 {
 public:
     vector<int> inorderTraversal(TreeNode* root) 
@@ -53,8 +100,3 @@ public:
         return v;
     }
 };
-
-
-int main()
-{
-}
