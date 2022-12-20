@@ -13,7 +13,8 @@ struct TreeNode
 
 
 /**
- * @todo 
+ * @todo 꼭 github, PS 갤러리에 가서 질문할것
+ * 
  * 99-recover_binary_search_tree (https://leetcode.com/problems/recover-binary-search-tree/)
  * 
 */
