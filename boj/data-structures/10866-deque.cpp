@@ -4,6 +4,8 @@
 #include <string>
 using namespace std;
 
+namespace Fail
+{
 /**
  * @todo
  * 1. 명령의 수 N (1 ≤ N ≤ 10,000)이 주어진다
@@ -126,3 +128,4 @@ int main()
         }
     }
 }
+} // namespace Fail

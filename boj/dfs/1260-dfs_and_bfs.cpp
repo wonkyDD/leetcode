@@ -1,3 +1,11 @@
+// https://www.acmicpc.net/problem/1260
+#include <iostream>
+#include <queue>
+#include <vector>
+using namespace std;
+
+namespace Answer
+{
 // https://jun-itworld.tistory.com/18
 /**
  * 1. cout을 굳이 모아서 하려고 했다.
@@ -30,19 +38,23 @@ int found[1001];
 int mat[1001][1001];
 
 
-void dfs(int n) {
+void dfs(int n) 
+{
     found[n] = 1;
     cout<<n<<' ';
-    for (int i=1; i<1001; ++i) {
+    for (int i=1; i<1001; ++i) 
+    {
         if (found[i]==0 && mat[n][i]==1) dfs(i);
     }
 }
 
-void bfs(int n) {
+void bfs(int n) 
+{
     queue<int> q;
     q.push(n);
 
-    while (!q.empty()) {
+    while (!q.empty()) 
+    {
         int first = q.front();
         cout<<first<<' ';
 
@@ -62,12 +74,14 @@ void bfs(int n) {
     }
 }
 
-int main() {
+int main() 
+{
     int N,M,V;
     cin>>N>>M>>V;
 
     int a,b;
-    for (int i=0; i<M; ++i) {
+    for (int i=0; i<M; ++i) 
+    {
         cin>>a>>b;
         mat[a][b] = mat[b][a] = 1;
     }
@@ -76,3 +90,71 @@ int main() {
     cout<<'\n';
     bfs(V);
 }
+} // namespace Answer
+
+namespace Fail
+{
+// N(1 ≤ N ≤ 1,000)
+vector<int> node[1001];
+bool found_dfs[1001];
+bool found_bfs[1001];
+
+vector<int> result_dfs; 
+vector<int> result_bfs; 
+
+void dfs(int n) 
+{
+    found_dfs[n] = true;
+    result_dfs.push_back(n);
+
+    for (int i=0; i<node[n].size(); ++i) 
+    {
+        if (!found_dfs[node[n][i]]) 
+        {
+            dfs(node[n][i]);
+        }
+    }
+}
+
+void bfs(vector<int>& v, vector<int>& temp) 
+{
+    cout<<"YES";
+    for (auto it=v.begin(); it!=v.end(); ++it) 
+    {
+        for (int i=0; i<node[*it].size(); ++i) 
+        {
+            if (!found_bfs[node[*it][i]]) 
+            {
+                found_bfs[node[*it][i]] = true;
+                result_bfs.push_back(node[*it][i]);
+
+                temp.push_back(node[*it][i]);
+            }
+        }
+    }
+
+    v.clear();
+    v.shrink_to_fit();
+    bfs(temp, v);
+}
+
+int main() 
+{
+    int N,M,V;
+    cin>>N>>M>>V;
+
+    int a,b;
+    for (int i=0; i<M; ++i) 
+    {
+        cin>>a>>b;
+        node[a].push_back(b);
+        node[b].push_back(a);
+    }
+
+    // dfs(V);
+    vector<int> v, temp;
+    v.push_back(V);
+
+    bfs(v, temp);
+}
+} // namespace Fail
