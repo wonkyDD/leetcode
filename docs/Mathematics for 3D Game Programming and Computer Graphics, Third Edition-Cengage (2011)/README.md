@@ -1,6 +1,13 @@
+# Mathematics for 3D Game Programming and Computer Graphics, Third Edition-Cengage (2011)
+
+>Start   : 2022_12_14_WED<br>
+>Finish  : 
+
+<br>
+
 ### 1 - The Rendering Pipeline
 
->Start   : 2022_12_05_MON<br>
+>Start   : 2022_12_14_WED<br>
 >Finish  : 2022_12_14_WED
 
 <br>
