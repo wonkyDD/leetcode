@@ -1,6 +1,7 @@
 # Bookmark
 
-- [page ] : 
+<!-- - [page ****] :  -->
+<!-- - [page ****] :  -->
 
 <br>
 
@@ -14,10 +15,10 @@
 <br>
 
 #### 2022_12_05_MON
-- [page 46]
+- [page **46**]
 
 #### 2022_12_07_WED
-- [page 56] : 2.5 Performance
+- [page **56**] : 2.5 Performance
 
 #### 2022_12_08_THUR
-- [page 59] : 2.7.1 Debugging a Collision Detection System
+- [page **59**] : 2.7.1 Debugging a Collision Detection System

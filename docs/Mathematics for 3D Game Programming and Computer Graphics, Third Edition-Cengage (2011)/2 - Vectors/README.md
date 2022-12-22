@@ -1,6 +1,7 @@
 # Bookmark
 
-- [page ] : 
+<!-- - [page ****] :  -->
+<!-- - [page ****] :  -->
 
 <br>
 
@@ -14,4 +15,4 @@
 <br>
 
 #### 2022_12_14_WED 
-- [page 40] :  Cross Product, Theorem 2.7
+- [page **40**] :  Cross Product, Theorem 2.7
