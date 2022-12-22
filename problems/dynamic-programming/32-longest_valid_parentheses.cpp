@@ -1,5 +1,6 @@
 // https://leetcode.com/problems/longest-valid-parentheses/
 // https://leetcode.com/problems/longest-valid-parentheses/solutions/14147/my-simple-8ms-c-code/
+// https://leetcode.com/problems/longest-valid-parentheses/solutions/345045/c-easy-to-understand/
 /** @todo cant understand official solution */
 // https://leetcode.com/problems/longest-valid-parentheses/solutions/127609/longest-valid-parentheses/
 #include <vector>
@@ -7,7 +8,38 @@
 #include <stack>
 using namespace std;
 
-class Answer 
+class Answer2
+{
+public:
+    int longestValidParentheses(string s) 
+    {
+        stack<int> opens;
+        for (int i=0; i<s.size(); ++i)
+        {
+            if (s[i] == '(') opens.push(i);
+            else if (opens.size())
+            {
+                s[opens.top()] = s[i] = '*';
+                opens.pop();
+            }
+        }
+
+        int cur = 0, res = 0;
+        for (int i=0; i<s.size(); ++i)
+        {
+            if (s[i] == '*') ++cur;
+            else
+            {
+                res = max(res, cur);
+                cur = 0;
+            }
+        }
+
+        return max(res, cur);
+    }
+};
+
+class Answer1
 {
 public:
     int longestValidParentheses(string s) 
@@ -30,7 +62,6 @@ public:
         return maxL;
     }
 };
-
 
 /**
  * @note
