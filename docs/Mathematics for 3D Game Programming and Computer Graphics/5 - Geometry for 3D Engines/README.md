@@ -2,6 +2,8 @@
 
 - [page **126**] : The four-dimensional plane vectors corresponding to the six sides 
 of the view frustum 
+- [page **139**] : 5.6 Reflections and Oblique Clipping
+- [page **148**] : Q2, Q3, Q5, Q7
 <!-- - [page ****] :  -->
 <!-- - [page ****] :  -->
 
@@ -12,7 +14,7 @@ of the view frustum
 <br>
 
 >Start   : 2022_12_21_WED<br>
->Finish  : 
+>Finish  : 2022_12_26_MON
 
 <br>
 
@@ -27,9 +29,3 @@ of the view frustum
 
 #### 2022_12_25_SUN
 - [page **139**] : 5.6 Reflections and Oblique Clipping 
-
-#### _ _ _
-- [page ****] :
-
-#### _ _ _
-- [page ****] :

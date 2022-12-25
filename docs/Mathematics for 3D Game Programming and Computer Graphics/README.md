@@ -1,4 +1,4 @@
-# Mathematics for 3D Game Programming and Computer Graphics, Third Edition-Cengage (2011)
+# Mathematics for 3D Game Programming and Computer Graphics
 
 >Start   : 2022_12_14_WED<br>
 >Finish  : 
@@ -32,4 +32,12 @@
 >Finish  : 2022_12_21_WED
 
 <br>
+
+### 5 - Geometry for 3D Engines
+
+>Start   : 2022_12_21_WED<br>
+>Finish  : 2022_12_26_MON
+
+<br>
+
 
