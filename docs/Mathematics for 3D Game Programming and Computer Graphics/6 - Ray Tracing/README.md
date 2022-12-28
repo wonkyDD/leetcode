@@ -1,5 +1,6 @@
 # Bookmark
 
+- [page ****] : 
 <!-- - [page ****] :  -->
 <!-- - [page ****] :  -->
 
@@ -19,9 +20,3 @@
 
 #### 2022_12_27_TUE
 - [page **169**] : 6.4.1 Reflection Vector Calculation
-
-#### _ _ _
-- [page ****] :
-
-#### _ _ _
-- [page ****] :
