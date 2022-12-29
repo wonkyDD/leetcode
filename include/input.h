@@ -1,7 +1,3 @@
-/**
- * @todo
- * make it easy to test with various kinds of inputs
-*/
 #ifndef INPUT_H
 #define INPUT_H
 
@@ -9,6 +5,10 @@
 #include <vector>
 // using namespace std;
 
+/**
+ * @todo
+ * make it easy to test with various kinds of inputs
+*/
 class Input
 {
 public:
