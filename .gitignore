@@ -15,3 +15,7 @@
 
 build/
 out/
+
+# WIP: ray tracer
+src/Ray Tracer/
+include/raytracer/
