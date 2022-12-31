@@ -17,8 +17,8 @@
 #### 2022_12_29_THUR
 - [page **9**] : 3.3. Color Utility Functions
 
-#### _ _ _
-- [page ****] :
+#### 2022_12_30_FRI
+- [page **18**] : 6. Surface Normals and Multiple Objects
 
 #### _ _ _
 - [page ****] :
