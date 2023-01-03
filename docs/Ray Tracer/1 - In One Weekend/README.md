@@ -23,6 +23,12 @@
 #### 2022_12_31_SAT
 - [page **25**] : 6.5. A List of Hittable Objects
 
+#### 2023_01_03_TUE
+- [page **35**] : 8.1. A Simple Diffuse Material
+
+#### _ _ _
+- [page ****] :
+
 #### _ _ _
 - [page ****] :
 
