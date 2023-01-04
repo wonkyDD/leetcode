@@ -26,6 +26,9 @@
 #### 2023_01_03_TUE
 - [page **35**] : 8.1. A Simple Diffuse Material
 
+#### 2023_01_04_WED
+- [page **42**] : 8.6. An Alternative Diffuse Formulation
+
 #### _ _ _
 - [page ****] :
 
